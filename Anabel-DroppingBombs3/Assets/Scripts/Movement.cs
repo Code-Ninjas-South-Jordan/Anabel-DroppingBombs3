@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
 public class Movement : MonoBehaviour
 {
 
@@ -15,10 +14,8 @@ public class Movement : MonoBehaviour
         HorizontalOnly,
         VerticalOnly
     }
-
     [Header("Animator")]
     public Animator animator;
-
     [SerializeField]
     private MovementType movementType = 0;
 
